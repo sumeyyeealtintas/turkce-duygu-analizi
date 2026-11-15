@@ -1,0 +1,58 @@
+{
+  "egitim_ornek": 120000,
+  "test_ornek": 48828,
+  "en_iyi": "Karakter TF-IDF + Lineer SVM",
+  "sonuclar": {
+    "Çoğunluk sınıfı (referans)": {
+      "dogruluk": 0.535205210125338,
+      "makro_f1_3sinif": 0.23241418871146327,
+      "makro_f1_olumlu_olumsuz": 0.45158893362594826,
+      "olumsuz_f1": 0.0,
+      "sure_sn": 9.8
+    },
+    "Sözcük TF-IDF + Lojistik Regresyon": {
+      "dogruluk": 0.9301630212173343,
+      "makro_f1_3sinif": 0.8974521473648013,
+      "makro_f1_olumlu_olumsuz": 0.8689125071322115,
+      "olumsuz_f1": 0.7886695278969957,
+      "sure_sn": 30.0
+    },
+    "Karakter TF-IDF + Lineer SVM": {
+      "dogruluk": 0.948021626935365,
+      "makro_f1_3sinif": 0.912313276268241,
+      "makro_f1_olumlu_olumsuz": 0.872663112704628,
+      "olumsuz_f1": 0.7914268001062793,
+      "sure_sn": 82.4
+    }
+  },
+  "ayirt_edici_sozcukler": {
+    "olumlu": [
+      "gayet",
+      "mükemmel",
+      "harika",
+      "memnunum",
+      "teşekkürler",
+      "süper",
+      "ürün",
+      "kaliteli",
+      "hepsiburada",
+      "gerçekten",
+      "kullanışlı",
+      "güzel"
+    ],
+    "olumsuz": [
+      "berbat",
+      "rezalet",
+      "beğenmedim",
+      "kötü",
+      "sıkıcı",
+      "vasat",
+      "orospu",
+      "iade",
+      "etmiyorum",
+      "gereksiz",
+      "yazık",
+      "değil"
+    ]
+  }
+}

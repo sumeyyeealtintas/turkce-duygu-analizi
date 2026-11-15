@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+# Veri CC BY-SA lisanslıdır ve büyüktür: repoya konmaz, ilk çalıştırmada indirilir
+data/
+# Eğitilmiş model büyük olabilir: yeniden üretilebilir
+model/
+egitim_log.txt
