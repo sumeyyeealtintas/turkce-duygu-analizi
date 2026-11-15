@@ -1,5 +1,7 @@
 # 💬 Türkçe Duygu Analizi
 
+[![Testler](https://github.com/sumeyyeealtintas/turkce-duygu-analizi/actions/workflows/test.yml/badge.svg)](https://github.com/sumeyyeealtintas/turkce-duygu-analizi/actions/workflows/test.yml)
+
 Türkçe ürün yorumları, mağaza yorumları ve tweetlerde **olumlu / nötr / olumsuz** duyguyu sınıflandıran NLP projesi. Sadece skor vermekle kalmaz; veri setinin zayıflıklarını (yapay olarak kolay nötr sınıfı, sınıf dengesizliği) tespit edip değerlendirmeyi buna göre dürüstçe raporlar.
 
 ![Karışıklık matrisi](raporlar/karisiklik_matrisi.png)
