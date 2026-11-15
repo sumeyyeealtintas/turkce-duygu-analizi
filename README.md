@@ -53,7 +53,7 @@ python src/tahmin.py "Konya, İç Anadolu Bölgesi'nde bir ilidir"           # [
 ## 🚀 Çalıştırma
 ```bash
 pip install -r requirements.txt
-python src/egit.py          # veriyi indirir (~70 MB), 3 modeli eğitir, raporları üretir (~3 dk)
+python src/egit.py          # veriyi indirir (~81 MB), 3 modeli eğitir, raporları üretir (~3 dk)
 python src/tahmin.py        # etkileşimli tahmin
 pytest -q                   # 6 test
 ```
